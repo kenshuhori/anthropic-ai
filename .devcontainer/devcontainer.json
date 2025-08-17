@@ -1,0 +1,23 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "biomejs.biome",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "files.insertFinalNewline": true
+      }
+    }
+  },
+  "dockerComposeFile": [
+    "compose.yaml"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "name": "anthropic-ai",
+  "service": "workspace",
+  "workspaceFolder": "/usr/src/app"
+  // "postCreateCommand": "yarn install"
+}
