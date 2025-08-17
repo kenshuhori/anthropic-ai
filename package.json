@@ -1,0 +1,7 @@
+{
+  "name": "anthropic-ai",
+  "version": "1.0.0",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0"
+  }
+}
